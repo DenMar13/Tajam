@@ -477,6 +477,9 @@ body {
  .galleria-item > img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /*border: 1px solid red;*/
  }
  .picture-background-1 {
     background: rgb(182, 182, 182);
@@ -864,7 +867,11 @@ body {
        grid-row: 2/3;
        grid-column: 2/3;
     }
- 
+    .galleria-picture {
+      display: grid;
+      grid-template-rows: repeat(4, 200px);
+      grid-template-columns: repeat(3, 1fr);
+    }
     .article-content-text {
        max-width: 700px;
     }
@@ -1097,6 +1104,15 @@ body {
        display: grid;
        grid-row: 4/5;
        grid-column: 1/2;
+    }
+    .galleria-top-content > a {
+      line-height: 20px;
+      text-align: right;
+    }
+    .galleria-picture {
+      display: grid;
+      grid-template-rows: repeat(12, 200px);
+      grid-template-columns: 1fr;
     }
     .article-content-text {
        max-width: 100%;
