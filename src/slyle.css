@@ -317,12 +317,14 @@ body {
     color: rgb(65, 61, 75);
  }
  .expertise-grid p {
+    max-height: 68px;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.5px;
     text-align: center;
     color: rgb(122, 122, 122);
+    overflow: scroll;
  }
  .expertise-grid > .expertise-header > p {
     font-family: 'Playfair Display', serif;
