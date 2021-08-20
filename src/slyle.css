@@ -308,7 +308,7 @@
     letter-spacing: 0.5px;
     text-align: center;
     color: rgb(122, 122, 122);
-    overflow: scroll;
+    overflow: auto;
  }
  .expertise-grid > .expertise-header > p {
     font-family: 'Playfair Display', serif;
