@@ -5,7 +5,7 @@ if(menuLinks.length > 0) {
     });
     function onMenuLinkClick(x) {
         const menuLink = x.target;
-        if(menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
+        if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
             const gotoBlock = document.querySelector(menuLink.dataset.goto);
             const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset;
             window.scrollTo({
